@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search and Filter</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<body>
+    <h2 class="text-center text-uppercase" style="color: red;" >My Friends</h2>
+    <input type="text"  id="myInput" placeholder="names.." onkeyup="searchFun()">
+    <div class="container">
+    <table class="table  table-bordered table-hover " style="margin-top: 10px;"   id="myTable">
+        <thead>
+          <tr class="table-danger">
+            <th scope="col">Name</th>
+            <th scope="col">Degree</th>
+            <th scope="col">Profession</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-info">
+            <td>Mark</td>
+            <td>MCA</td>
+            <td>Full Stack Developer</td>
+          </tr>
+          <tr class="table-primary">
+            <td>Jacob</td>
+            <td>BBA</td>
+            <td>HR Manager</td>
+          </tr>
+          <tr class="table-secondary">
+            <td>Larry </td>
+            <td>BCS</td>
+            <td>Front End Developer</td>
+          </tr>
+          <tr class="table-success">
+            <td>Kiran </td>
+            <td>MCA</td>
+            <td>Front End Developer</td>
+          </tr>
+          <tr class="table-warning">
+            <td>Yogesh </td>
+            <td>BCS</td>
+            <td>Back End Developer</td>
+          </tr>
+          <tr class="table-light">
+            <td>Rohit </td>
+            <td>MCA</td>
+            <td>Front End Developer</td>
+          </tr>
+          <tr class="table-info">
+            <td>Varad </td>
+            <td>BCS</td>
+            <td>Full Stack Developer</td>
+          </tr>
+          <tr class="table-warning">
+            <td>Amit </td>
+            <td>BCS</td>
+            <td>Front End Developer</td>
+          </tr>
+          <tr class="table-success">
+            <td>Narayan </td>
+            <td>BCS</td>
+            <td>Front End Developer</td>
+          </tr>
+          <tr class="table-primary">
+            <td>Arjun </td>
+            <td>BCS</td>
+            <td>Front End Developer</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
